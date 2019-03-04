@@ -1,0 +1,768 @@
+Prefix(:=<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10>
+Annotation(<http://purl.org/dc/elements/1.1/description> "This ontology is about Backstreet Boys i.e. band members, songs, albums, awards, song writer, and award year.
+https://www.backstreetboys.com/"@en)
+Annotation(<http://purl.org/dc/elements/1.1/title> "Backstreet Boys"@en)
+Annotation(<http://purl.org/dc/terms/contributor> "Karuna Varakuti"@en)
+Annotation(<http://purl.org/dc/terms/license> "CC0 1.0 Universal Public Domain (CC0 1.0)"@en)
+Annotation(rdfs:label "Backstreet Boys"@en)
+Annotation(owl:versionInfo "1.0"@en)
+
+Declaration(Class(:AJ_McLean))
+Declaration(Class(:A_Night_Out_with_the_Backstreet_Boys))
+Declaration(Class(:Albert_Manno))
+Declaration(Class(:Album_of_the_Year))
+Declaration(Class(:Album_of_the_year))
+Declaration(Class(:Albums))
+Declaration(Class(:Albums_Artist_of_the_Year))
+Declaration(Class(:Andreas_Carlsson))
+Declaration(Class(:Artist_of_the_Year))
+Declaration(Class(:Award_year))
+Declaration(Class(:Awards))
+Declaration(Class(:BackstreetBoys))
+Declaration(Class(:Backstreet_Boys))
+Declaration(Class(:Band_Members))
+Declaration(Class(:Bernie_Taupin))
+Declaration(Class(:Best_International_Album))
+Declaration(Class(:Best_International_Single))
+Declaration(Class(:Best_International_live_act))
+Declaration(Class(:Best_New_Artist))
+Declaration(Class(:Best_Pop_Performance_by_a_Duo_or_Group_with_Vocals))
+Declaration(Class(:Best_Pop_Vocal_Album))
+Declaration(Class(:Billboard_Music_Awards))
+Declaration(Class(:Brain_Littrell))
+Declaration(Class(:Brett_James))
+Declaration(Class(:Brian_Littrell))
+Declaration(Class(:Chris_Lindsey))
+Declaration(Class(:Compilation_Albums))
+Declaration(Class(:DNA))
+Declaration(Class(:Dan_Muckala))
+Declaration(Class(:Denniz_Pop))
+Declaration(Class(:Drowing))
+Declaration(Class(:Elton_John))
+Declaration(Class(:Eugene_Wilde))
+Declaration(Class(:Everybody))
+Declaration(Class(:Get_Down))
+Declaration(Class(:Grammy_Award))
+Declaration(Class(:Helpless_When_She_Smiles))
+Declaration(Class(:Howie_Dorough))
+Declaration(Class(:I_Want_It_That_Way))
+Declaration(Class(:In_a_World_Like_This))
+Declaration(Class(:In_a_World_like_This))
+Declaration(Class(:Incomplete))
+Declaration(Class(:Jess_Cates))
+Declaration(Class(:Just_Want_You_to_Know))
+Declaration(Class(:Kevin_Richardson))
+Declaration(Class(:Kinnda_Hamid))
+Declaration(Class(:Kristian_Lundin))
+Declaration(Class(:Larger_than_Life))
+Declaration(Class(:Linda_Thompson))
+Declaration(Class(:Lindy_Robbins))
+Declaration(Class(:Live_Albums))
+Declaration(Class(:MTV_Video_Music_Awards))
+Declaration(Class(:Max_Martin))
+Declaration(Class(:Millennium))
+Declaration(Class(:Never_Gone))
+Declaration(Class(:Nick_Carter))
+Declaration(Class(:Rami))
+Declaration(Class(:Record_of_the_Year))
+Declaration(Class(:Smooth_T))
+Declaration(Class(:Song_Writers))
+Declaration(Class(:Songs))
+Declaration(Class(:Straight_Through_My_Heart))
+Declaration(Class(:Studio_Albums))
+Declaration(Class(:TMF_Awards))
+Declaration(Class(:The_Essential_Backstreet_Boys))
+Declaration(Class(:The_Hits_Chapter_One))
+Declaration(Class(:The_One))
+Declaration(Class(:This_is_Us))
+Declaration(Class(:Unbreakable))
+Declaration(Class(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1998>))
+Declaration(Class(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1999>))
+Declaration(Class(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2000>))
+Declaration(Class(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2001>))
+Declaration(Class(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2002>))
+Declaration(Class(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Albums_Artist_Duo/Group_of_the_Year>))
+Declaration(Class(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Backstreet’s_Back>))
+Declaration(Class(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Black_&_Blue>))
+Declaration(Class(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Don’t_Go_Breaking_My_Heart>))
+Declaration(Class(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#I’ll_Never_Break_Your_Heart>))
+Declaration(Class(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Viewer’s_Choice>))
+Declaration(ObjectProperty(:hasAwards))
+Declaration(ObjectProperty(:hasCollectionOf))
+Declaration(ObjectProperty(:hasGivenTo))
+Declaration(ObjectProperty(:hasReceived))
+Declaration(ObjectProperty(:hasWritten))
+Declaration(ObjectProperty(:isCollectionOf))
+Declaration(ObjectProperty(:isGiven))
+Declaration(ObjectProperty(:isReceivedInThe))
+Declaration(ObjectProperty(:isWrittenBy))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/provenance>))
+Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#altlabel>))
+Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#definition>))
+Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#prelabel>))
+Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#reference>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: :hasAwards (:hasAwards)
+
+AnnotationAssertion(rdfs:comment :hasAwards "A property created to be used with the awards."@en)
+FunctionalObjectProperty(:hasAwards)
+ObjectPropertyRange(:hasAwards :Awards)
+
+# Object Property: :hasCollectionOf (:hasCollectionOf)
+
+AnnotationAssertion(rdfs:comment :hasCollectionOf "Note that hasCollectionOf is fuctional and inverse of the isCollectionOf"@en)
+InverseObjectProperties(:hasCollectionOf :isCollectionOf)
+FunctionalObjectProperty(:hasCollectionOf)
+ObjectPropertyDomain(:hasCollectionOf :Albums)
+ObjectPropertyRange(:hasCollectionOf :Songs)
+
+# Object Property: :hasGivenTo (:hasGivenTo)
+
+AnnotationAssertion(rdfs:comment :hasGivenTo "Award hasGivenTo Songs or Albums. Note that isWon is functional beacuse isGiven is inverse functional."@en)
+InverseObjectProperties(:hasGivenTo :isGiven)
+FunctionalObjectProperty(:hasGivenTo)
+ObjectPropertyDomain(:hasGivenTo :Awards)
+ObjectPropertyRange(:hasGivenTo :Albums)
+ObjectPropertyRange(:hasGivenTo :Songs)
+
+# Object Property: :hasReceived (:hasReceived)
+
+AnnotationAssertion(rdfs:comment :hasReceived "Note that hasReceived is fuctional and inverse of the isReceivedInThe"@en)
+InverseObjectProperties(:hasReceived :isReceivedInThe)
+FunctionalObjectProperty(:hasReceived)
+ObjectPropertyDomain(:hasReceived :Award_year)
+ObjectPropertyRange(:hasReceived :Awards)
+
+# Object Property: :hasWritten (:hasWritten)
+
+AnnotationAssertion(rdfs:comment :hasWritten "Note that isWrittenBy is inverse functional and hasWritten is functional."@en)
+InverseObjectProperties(:hasWritten :isWrittenBy)
+FunctionalObjectProperty(:hasWritten)
+ObjectPropertyDomain(:hasWritten :Song_Writers)
+ObjectPropertyRange(:hasWritten :Albums)
+ObjectPropertyRange(:hasWritten :Songs)
+
+# Object Property: :isCollectionOf (:isCollectionOf)
+
+AnnotationAssertion(rdfs:comment :isCollectionOf "Note that isCollectionOf is inverse fuctional and hasCollectionOf is functional."@en)
+InverseFunctionalObjectProperty(:isCollectionOf)
+ObjectPropertyDomain(:isCollectionOf :Songs)
+ObjectPropertyRange(:isCollectionOf :Albums)
+
+# Object Property: :isGiven (:isGiven)
+
+AnnotationAssertion(rdfs:comment :isGiven "Albums or songs isGiven awards. Note that hasGivenTo is inverse functional beacuse isGiven is functional"@en)
+InverseFunctionalObjectProperty(:isGiven)
+ObjectPropertyDomain(:isGiven :Albums)
+ObjectPropertyDomain(:isGiven :Songs)
+ObjectPropertyRange(:isGiven :Awards)
+
+# Object Property: :isReceivedInThe (:isReceivedInThe)
+
+InverseFunctionalObjectProperty(:isReceivedInThe)
+ObjectPropertyDomain(:isReceivedInThe :Awards)
+ObjectPropertyRange(:isReceivedInThe :Award_year)
+
+# Object Property: :isWrittenBy (:isWrittenBy)
+
+AnnotationAssertion(rdfs:comment :isWrittenBy "Note that isWrittenBy is inverse functional and hasWritten is functional."@en)
+InverseFunctionalObjectProperty(:isWrittenBy)
+ObjectPropertyDomain(:isWrittenBy :Albums)
+ObjectPropertyDomain(:isWrittenBy :Songs)
+ObjectPropertyRange(:isWrittenBy :Song_Writers)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: :AJ_McLean (:AJ_McLean)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :AJ_McLean "A.J. McLean was born on January 9, 1978 in West Palm Beach, Florida, USA as Alexander James McLean. He is an actor, known for Jimmy Neutron: Boy Genius (2001), This Is the End (2013) and Hi Honey, I'm Home (1991). He has been married to Rochelle Karidis since December 17, 2011. They have two children.
+https://www.imdb.com/name/nm0572481/bio?ref_=nm_ov_bio_sm"@en)
+SubClassOf(:AJ_McLean :Band_Members)
+
+# Class: :A_Night_Out_with_the_Backstreet_Boys (:A_Night_Out_with_the_Backstreet_Boys)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :A_Night_Out_with_the_Backstreet_Boys "A Night Out With the Backstreet Boys is a once in a lifetime concert recorded before 200 handpicked fans in Cologne, Germany. Hear Brian, Nick, AJ, Kevin and Howie with a string section and choir performing fan favorites like you’ve never heard them.
+https://qello.com/concert/A-Night-Out-With-the-Backstreet-Boys-6136"@en)
+SubClassOf(:A_Night_Out_with_the_Backstreet_Boys :Live_Albums)
+
+# Class: :Albert_Manno (:Albert_Manno)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Albert_Manno "Albert Manno is song writter and worked for backstreet boys.
+https://www.musicnotes.com/sheet-music/artist/albert-manno"@en)
+SubClassOf(:Albert_Manno :Song_Writers)
+
+# Class: :Album_of_the_Year (:Album_of_the_Year)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Album_of_the_Year "The award for Album of the Year is the most prestigious award category at the Grammys. Album of the Year is awarded for an entire album.
+https://www.diffen.com/difference/Album_Of_The_Year_vs_Record_Of_The_Year"@en)
+EquivalentClasses(:Album_of_the_Year ObjectIntersectionOf(:Album_of_the_Year ObjectSomeValuesFrom(:hasGivenTo :Millennium) ObjectSomeValuesFrom(:isReceivedInThe <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2000>)))
+SubClassOf(:Album_of_the_Year :Grammy_Award)
+SubClassOf(:Album_of_the_Year ObjectSomeValuesFrom(:hasGivenTo :Millennium))
+
+# Class: :Album_of_the_year (:Album_of_the_year)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Album_of_the_year "The award for Album of the Year is the most prestigious award category at the Billboard Music award. Album of the Year is awarded for an entire album.
+https://www.diffen.com/difference/Album_Of_The_Year_vs_Record_Of_The_Year"@en)
+EquivalentClasses(:Album_of_the_year ObjectIntersectionOf(:Album_of_the_year ObjectSomeValuesFrom(:hasGivenTo :Millennium)))
+SubClassOf(:Album_of_the_year :Billboard_Music_Awards)
+SubClassOf(:Album_of_the_year ObjectSomeValuesFrom(:hasGivenTo :Millennium))
+
+# Class: :Albums (Albums)
+
+AnnotationAssertion(rdfs:label :Albums "Albums"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Albums "A collection of one or more recording produced as single unit.
+https://www.merriam-webster.com/dictionary/album"@en)
+SubClassOf(:Albums ObjectSomeValuesFrom(:hasCollectionOf :Songs))
+
+# Class: :Albums_Artist_of_the_Year (:Albums_Artist_of_the_Year)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Albums_Artist_of_the_Year "Albums of the year is part of billboard music awards and presented to entire albums.
+https://www.billboardmusicawards.com"@en)
+EquivalentClasses(:Albums_Artist_of_the_Year ObjectIntersectionOf(:Albums_Artist_of_the_Year ObjectSomeValuesFrom(:isReceivedInThe <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1999>)))
+SubClassOf(:Albums_Artist_of_the_Year :Billboard_Music_Awards)
+
+# Class: :Andreas_Carlsson (:Andreas_Carlsson)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Andreas_Carlsson "Andreas Carlsson is a Swedish music producer, composer, and songwriter. 
+http://www.dennizpopawards.com/jury/andreas-carlsson/"@en)
+SubClassOf(:Andreas_Carlsson :Song_Writers)
+
+# Class: :Artist_of_the_Year (:Artist_of_the_Year)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Artist_of_the_Year "Artist of the year is given to the best artist in that year.
+https://www.merriam-webster.com/dictionary/artist"@en)
+EquivalentClasses(:Artist_of_the_Year ObjectIntersectionOf(:Artist_of_the_Year ObjectSomeValuesFrom(:isReceivedInThe <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1999>)))
+SubClassOf(:Artist_of_the_Year :Billboard_Music_Awards)
+
+# Class: :Award_year (Award year)
+
+AnnotationAssertion(rdfs:label :Award_year "Award year"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Award_year "An award year is the year when a prize or certificate that a person is given for doing something well.
+https://www.collinsdictionary.com/dictionary/english/award"@en)
+
+# Class: :Awards (Awards)
+
+AnnotationAssertion(rdfs:label :Awards "Awards"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Awards "Something that is conferred or bestowed especially on the basis of merit or need.
+https://www.merriam-webster.com/dictionary/award"@en)
+EquivalentClasses(:Awards ObjectUnionOf(:Billboard_Music_Awards :Grammy_Award :MTV_Video_Music_Awards :TMF_Awards))
+
+# Class: :BackstreetBoys (Backstreet Boys)
+
+AnnotationAssertion(rdfs:label :BackstreetBoys "Backstreet Boys"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :BackstreetBoys "The Backstreet Boys are an American vocal group. The group consists of AJ McLean, Howie Dorough, Nick Carter, Kevin Richardson, and Brian Littrell.
+https://www.backstreetboys.com/history"@en)
+
+# Class: :Backstreet_Boys (:Backstreet_Boys)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Backstreet_Boys "American boy band formed on April 20, 1993 in Orlando, Florida.
+https://www.discogs.com/artist/11002-Backstreet-Boys"@en)
+SubClassOf(:Backstreet_Boys :Compilation_Albums)
+SubClassOf(:Backstreet_Boys ObjectSomeValuesFrom(:hasCollectionOf :Get_Down))
+SubClassOf(:Backstreet_Boys ObjectSomeValuesFrom(:hasCollectionOf <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#I’ll_Never_Break_Your_Heart>))
+
+# Class: :Band_Members (Band Members)
+
+AnnotationAssertion(rdfs:label :Band_Members "Band Members"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Band_Members "A group of musicians who play popular music, jazz, etc.
+https://dictionary.reverso.net/english-definition/band+member"@en)
+
+# Class: :Bernie_Taupin (:Bernie_Taupin)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Bernie_Taupin "Bernie Taupin is one-half of one of the most successful and prolific songwriting duos in the history of popular music.
+https://www.biography.com/news/elton-john-bernie-taupin"@en)
+SubClassOf(:Bernie_Taupin :Song_Writers)
+
+# Class: :Best_International_Album (:Best_International_Album)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Best_International_Album "Best international album which is popular world wide and given to entire album.
+https://junoawards.ca/nomination-category/best-selling-international-album/"@en)
+EquivalentClasses(:Best_International_Album ObjectIntersectionOf(:Best_International_Album ObjectSomeValuesFrom(:hasGivenTo :Backstreet_Boys)))
+SubClassOf(:Best_International_Album :TMF_Awards)
+SubClassOf(:Best_International_Album ObjectSomeValuesFrom(:hasGivenTo :Backstreet_Boys))
+
+# Class: :Best_International_Single (:Best_International_Single)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Best_International_Single "Best international single which is popular world wide and given to  song.
+https://junoawards.ca/nomination-category/best-selling-international-album/"@en)
+EquivalentClasses(:Best_International_Single ObjectIntersectionOf(:Best_International_Single ObjectSomeValuesFrom(:isReceivedInThe <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1998>)))
+SubClassOf(:Best_International_Single :TMF_Awards)
+
+# Class: :Best_International_live_act (:Best_International_live_act)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Best_International_live_act "Best international live act; the group or person whose music has had a real impact on their lives.
+https://www.iq-mag.net/2018/06/ticketmaster-announces-nominees-best-live-act/#.XHwr4C0ZM_U"@en)
+EquivalentClasses(:Best_International_live_act ObjectIntersectionOf(:Best_International_live_act ObjectSomeValuesFrom(:isReceivedInThe <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1998>)))
+SubClassOf(:Best_International_live_act :TMF_Awards)
+
+# Class: :Best_New_Artist (:Best_New_Artist)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Best_New_Artist "Best New Artist program, in our latest installment of Ask The GRAMMYs we feature a question pertaining to eligibility for the Best New Artist.
+https://www.grammy.com/grammys/news/what-qualifies-best-new-artist-grammy-winner-new"@en)
+EquivalentClasses(:Best_New_Artist ObjectIntersectionOf(:Best_New_Artist ObjectSomeValuesFrom(:hasGivenTo :Backstreet_Boys) ObjectSomeValuesFrom(:isReceivedInThe <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1999>)))
+SubClassOf(:Best_New_Artist :Grammy_Award)
+SubClassOf(:Best_New_Artist ObjectSomeValuesFrom(:hasGivenTo :Backstreet_Boys))
+
+# Class: :Best_Pop_Performance_by_a_Duo_or_Group_with_Vocals (:Best_Pop_Performance_by_a_Duo_or_Group_with_Vocals)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Best_Pop_Performance_by_a_Duo_or_Group_with_Vocals "The Grammy Award for Best Pop Performance by a Duo or Group with Vocals has been handed out since 1966. It was known as Best Contemporary (R&R) Performance - Group (Vocal or Instrumental) from 1966 to 1967. Minor changes were applied to the title every year till 1972. In 1973 it was again changed to Best Pop Vocal Performance by a Duo, Group or Chorus. In 1978 it was awarded as Best Pop Vocal Performance by a Group. In 1979 it was again awarded as Best Pop Vocal Performance by a Duo or Group. Since 1981it has been awarded as Best Pop Performance by a Duo or Group With Vocals. The Beatles are the most nominated band in the category with 7 nominations, winning the award twice. 
+http://www.awardsandshows.com/features/best-pop-performance-group-353.html"@en)
+EquivalentClasses(:Best_Pop_Performance_by_a_Duo_or_Group_with_Vocals ObjectIntersectionOf(:Best_Pop_Performance_by_a_Duo_or_Group_with_Vocals ObjectIntersectionOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2002> ObjectSomeValuesFrom(:isReceivedInThe <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2001>))))
+SubClassOf(:Best_Pop_Performance_by_a_Duo_or_Group_with_Vocals :Grammy_Award)
+
+# Class: :Best_Pop_Vocal_Album (:Best_Pop_Vocal_Album)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Best_Pop_Vocal_Album "The Grammy Award for Best Pop Vocal Album is an honor presented at the Grammy Awards.
+https://www.grammy.com/grammys/news/best-pop-vocal-album-learn-15-things-about-59th-grammy-nominees"@en)
+EquivalentClasses(:Best_Pop_Vocal_Album ObjectIntersectionOf(:Best_Pop_Vocal_Album ObjectSomeValuesFrom(:hasGivenTo :Millennium) ObjectSomeValuesFrom(:isReceivedInThe <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2000>)))
+SubClassOf(:Best_Pop_Vocal_Album :Grammy_Award)
+SubClassOf(:Best_Pop_Vocal_Album ObjectSomeValuesFrom(:hasGivenTo :Millennium))
+
+# Class: :Billboard_Music_Awards (:Billboard_Music_Awards)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Billboard_Music_Awards "The Billboard Music Awards (BBMAs) honors the hottest names in music today. Unique among music awards shows, honorees are selected by performance on the Billboard Charts, widely considered to be the ultimate authority in the music industry. Consistently ranked as the second largest pop music show of the year, the show celebrates music’s greatest achievements, solidifying the BBMAs as an annual, live entertainment tentpole franchise.
+https://www.billboardmusicawards.com/about/"@en)
+SubClassOf(:Billboard_Music_Awards :Awards)
+
+# Class: :Brain_Littrell (:Brain_Littrell)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Brain_Littrell "Brian Littrell was born on February 20, 1975 in Lexington, Kentucky, USA as Brian Thomas Littrell. He is an actor, known for Napoleon Dynamite (2004), Jimmy Neutron: Boy Genius (2001) and This Is the End (2013). He has been married to Leighanne Littrell since September 2, 2000. They have one child.
+https://www.imdb.com/name/nm0514810/bio?ref_=nm_ov_bio_sm"@en)
+SubClassOf(:Brain_Littrell :Band_Members)
+
+# Class: :Brett_James (:Brett_James)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Brett_James "Brett James write songs and play the guitar and joined backsteert boys.
+https://www.allmusic.com/artist/brett-james-mn0000935857/biography"@en)
+SubClassOf(:Brett_James :Song_Writers)
+
+# Class: :Brian_Littrell (:Brian_Littrell)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Brian_Littrell "Brian Littrell is song writer and singer known for making two types of music: pop hits with the Backstreet Boys and inspirational tunes as a Christian music artist.
+https://www.biography.com/people/brian-littrell-21203083"@en)
+SubClassOf(:Brian_Littrell :Song_Writers)
+
+# Class: :Chris_Lindsey (:Chris_Lindsey)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Chris_Lindsey "Christopher Marsh Lindsey is a Grammy nominated American country music songwriter and record producer.
+https://www.discogs.com/composition/73c32a13-1ecd-408c-820a-f155b02d0f76-Helpless-When-She-Smiles"@en)
+SubClassOf(:Chris_Lindsey :Song_Writers)
+
+# Class: :Compilation_Albums (:Compilation_Albums)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Compilation_Albums "A compilation album is a general term used to refer to a music release made of up of songs that not intended to be viewed as a single work. Compilation albums are frequently referred to as \"comps\" and are often comprised of tracks by various artists. However, they can sometimes feature a single artist, but this is not the norm. A single artist release includes soundtracks, label samples, and theme albums.
+https://www.thebalancecareers.com/compilation-album-2460345"@en)
+SubClassOf(:Compilation_Albums :Albums)
+
+# Class: :DNA (:DNA)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :DNA "DNA is the ninth studio album by the Backstreet Boys.
+https://www.rollingstone.com/music/music-news/backstreet-boys-dna-world-tour-new-album-753987/"@en)
+SubClassOf(:DNA :Studio_Albums)
+SubClassOf(:DNA ObjectSomeValuesFrom(:hasCollectionOf <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Don’t_Go_Breaking_My_Heart>))
+
+# Class: :Dan_Muckala (:Dan_Muckala)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Dan_Muckala "Dan Muckala is an American songwriter and producer. Born in, Minneapolis, Minnesota, Muckala was a musical composition student at Belmont University in Tennessee.
+https://www.revolvy.com/page/Dan-Muckala"@en)
+SubClassOf(:Dan_Muckala :Song_Writers)
+
+# Class: :Denniz_Pop (:Denniz_Pop)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Denniz_Pop "Dag Krister  better known as Denniz Pop, was a Swedish DJ, music producer and songwriter.
+http://www.disco-disco.com/djs/denniz.shtml"@en)
+SubClassOf(:Denniz_Pop :Song_Writers)
+
+# Class: :Drowing (:Drowing)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Drowing "\"Drowning\" from the Backstreet Boys is a sweet B-side for any Backstreet collector. \"Shape of My Heart\" and \"Back to Your Heart\" are also included.
+https://www.allmusic.com/album/drowning-mw0000441476"@en)
+SubClassOf(:Drowing :Songs)
+SubClassOf(:Drowing ObjectAllValuesFrom(:isWrittenBy :Andreas_Carlsson))
+SubClassOf(:Drowing ObjectAllValuesFrom(:isWrittenBy :Linda_Thompson))
+SubClassOf(:Drowing ObjectAllValuesFrom(:isWrittenBy :Rami))
+
+# Class: :Elton_John (:Elton_John)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Elton_John "Elton John, in full Sir Elton Hercules John, original name Reginald Kenneth Dwight, (born March 25, 1947, Pinner, Middlesex, England), British singer, composer, and pianist who was one of the most popular entertainers of the late 20th century. He fused as many strands of popular music and stylistic showmanship as Elvis Presley in a concert and recording career that included the sale of hundreds of millions of records.
+https://www.britannica.com/biography/Elton-John"@en)
+SubClassOf(:Elton_John :Song_Writers)
+
+# Class: :Eugene_Wilde (:Eugene_Wilde)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Eugene_Wilde "Eugene Wilde real Name is Ronald E. Broomfield
+American R&B singer and songwriter, born 6 December 1961 in West Palm Beach, Florida, USA.
+https://www.discogs.com/artist/64807-Eugene-Wilde"@en)
+SubClassOf(:Eugene_Wilde :Song_Writers)
+
+# Class: :Everybody (:Everybody)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Everybody "“Everybody (Backstreet’s Back)” is the Backstreet Boys' first single from the international version of their second album, Backstreet’s Back; in the United States, it was their fourth.
+https://genius.com/Backstreet-boys-everybody-backstreets-back-lyrics"@en)
+SubClassOf(:Everybody :Songs)
+SubClassOf(:Everybody ObjectAllValuesFrom(:isWrittenBy :Denniz_Pop))
+SubClassOf(:Everybody ObjectAllValuesFrom(:isWrittenBy :Max_Martin))
+
+# Class: :Get_Down (:Get_Down)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Get_Down "\"Get Down (you're The One For Me)\" as written by Buelent Aris, Toni Cottura and Keith Mcguffy.
+https://songmeanings.com/songs/wiki/68612/"@en)
+SubClassOf(:Get_Down :Songs)
+SubClassOf(:Get_Down ObjectAllValuesFrom(:isWrittenBy :Smooth_T))
+
+# Class: :Grammy_Award (:Grammy_Award)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Grammy_Award "This Special Merit Award is presented by the Recording Academy to individuals or groups for ongoing contributions and influence in the recording field. The GRAMMY Legend Award was inaugurated in 1990.
+https://web.archive.org/web/20101207040854/http://www2.grammy.com/Recording_Academy/Awards/Legends/"@en)
+SubClassOf(:Grammy_Award :Awards)
+
+# Class: :Helpless_When_She_Smiles (:Helpless_When_She_Smiles)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Helpless_When_She_Smiles "Helpless When She Smiles in the Style of \"Backstreet Boys\". Stingray Karaoke Pop, Light Rock, 2007,
+https://www.imdb.com/title/tt7087330/"@en)
+SubClassOf(:Helpless_When_She_Smiles :Songs)
+SubClassOf(:Helpless_When_She_Smiles ObjectAllValuesFrom(:isWrittenBy :Brett_James))
+SubClassOf(:Helpless_When_She_Smiles ObjectAllValuesFrom(:isWrittenBy :Chris_Lindsey))
+
+# Class: :Howie_Dorough (:Howie_Dorough)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Howie_Dorough "Howard Dwaine \"Howie D\" Dorough was born in Orlando, Florida, as the fifth and youngest child of Paula Flores and Hoke Dwaine Dorough. His older siblings include Pollyanna, who is herself an aspiring singer, and Caroline Dorough-Cochran, who unfortunately passed away from Lupus at the age of 38 in 1998. His mother is Puerto Rican and his father had Irish and English ancestry. Although known for his humanitarian efforts with the Dorough Lupus Foundation, created in honor of his late sister, and for his work in producing up incoming stars such as George Nozuka, Howie is best known as being one-fifth of the Backstreet Boys.
+https://www.imdb.com/name/nm0234014/bio?ref_=nm_ov_bio_sm"@en)
+SubClassOf(:Howie_Dorough :Band_Members)
+
+# Class: :I_Want_It_That_Way (:I_Want_It_That_Way)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :I_Want_It_That_Way "“I Want It That Way” is about a strained relationship. The lyrical interpretation of this song, however, is notoriously muddled. They don’t necessarily make sense—and this is the subject of much the online discussion about this song. The lyrics were written by Max Martin and Andreas Carlsson, veteran Swedish hitmakers that began their careers at Cheiron Studios, which was largely responsible for the sound of pop in the ’90s.
+https://genius.com/Backstreet-boys-i-want-it-that-way-lyrics"@en)
+SubClassOf(:I_Want_It_That_Way :Songs)
+SubClassOf(:I_Want_It_That_Way ObjectAllValuesFrom(:isWrittenBy :Andreas_Carlsson))
+SubClassOf(:I_Want_It_That_Way ObjectAllValuesFrom(:isWrittenBy :Max_Martin))
+
+# Class: :In_a_World_Like_This (:In_a_World_Like_This)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :In_a_World_Like_This "The eighth studio release for the pop group is its first with Kevin Richardson since he left the group in 2006 and also includes production from Max Martin, Morgan Taylor Reid, and Martin Terefe.
+https://www.metacritic.com/music/in-a-world-like-this/backstreet-boys"@en)
+SubClassOf(:In_a_World_Like_This :Studio_Albums)
+SubClassOf(:In_a_World_Like_This ObjectSomeValuesFrom(:hasCollectionOf :In_a_World_like_This))
+
+# Class: :In_a_World_like_This (:In_a_World_like_This)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :In_a_World_like_This "\"Helpless When She Smiles\" as written by Aimee Mayo, Troy Verges, Brett James and Christopher Marsh Lindsey.
+https://songmeanings.com/songs/wiki/3530822107858662794/"@en)
+SubClassOf(:In_a_World_like_This :Songs)
+SubClassOf(:In_a_World_like_This ObjectAllValuesFrom(:isWrittenBy :Kristian_Lundin))
+SubClassOf(:In_a_World_like_This ObjectAllValuesFrom(:isWrittenBy :Max_Martin))
+
+# Class: :Incomplete (:Incomplete)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Incomplete "“Incomplete” is the power ballad that put the Backstreet Boys back on the map in the mid-2000’s.
+
+After a two-year hiatus (and four years after putting out a single), BSB was back (no pun intended) with a song that put them back on the Billboard charts in a hurry.
+https://genius.com/Backstreet-boys-incomplete-lyrics"@en)
+SubClassOf(:Incomplete :Songs)
+SubClassOf(:Incomplete ObjectAllValuesFrom(:isWrittenBy :Dan_Muckala))
+SubClassOf(:Incomplete ObjectAllValuesFrom(:isWrittenBy :Jess_Cates))
+SubClassOf(:Incomplete ObjectAllValuesFrom(:isWrittenBy :Lindy_Robbins))
+
+# Class: :Jess_Cates (:Jess_Cates)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Jess_Cates "Jess Cates is a Los Angeles based songwriter who has co-written multi-platinum selling songs such as Nick Lachey's \"What's Left Of Me\", and the Backstreet Boys hit of 2006 \"Incomplete\".
+https://www.revolvy.com/page/Jess-Cates"@en)
+SubClassOf(:Jess_Cates :Song_Writers)
+
+# Class: :Just_Want_You_to_Know (:Just_Want_You_to_Know)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Just_Want_You_to_Know "This song is about a guy who is trying to get over a girl he liked. It explains how he met her and how he's struggling to let her go
+https://www.songfacts.com/facts/backstreet-boys/just-want-you-to-know"@en)
+SubClassOf(:Just_Want_You_to_Know :Songs)
+SubClassOf(:Just_Want_You_to_Know ObjectAllValuesFrom(:isWrittenBy :Max_Martin))
+
+# Class: :Kevin_Richardson (:Kevin_Richardson)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Kevin_Richardson "Kevin Scott Richardson was born on October 3, 1971 in Lexington, Kentucky, USA. He is an actor, known for Jimmy Neutron: Boy Genius (2001), This Is the End (2013) and The Casserole Club (2011). He has been married to Kristin Richardson since June 17, 2000. They have two children.
+https://www.imdb.com/name/nm0724657/bio?ref_=nm_ov_bio_sm"@en)
+SubClassOf(:Kevin_Richardson :Band_Members)
+
+# Class: :Kinnda_Hamid (:Kinnda_Hamid)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Kinnda_Hamid "Kinda Hamid is swedish singer and songwriter born in 1982.
+https://www.discogs.com/artist/1303680-Kinnda-Hamid"@en)
+SubClassOf(:Kinnda_Hamid :Song_Writers)
+
+# Class: :Kristian_Lundin (:Kristian_Lundin)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Kristian_Lundin "Kristian Lundin is a Swedish composer, music producer and songwriter.
+http://www.dennizpopawards.com/jury/kristian-lundin/"@en)
+SubClassOf(:Kristian_Lundin :Song_Writers)
+
+# Class: :Larger_than_Life (:Larger_than_Life)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Larger_than_Life "“Larger than Life” is a “thank you” to the Backstreet Boys fandom for their encouragement and devotion. Music critics praised its memorable melody, singalong lyrics and the band’s vocal performance. It was also on Blender list of the “500 Greatest Songs Since You Were Born.”
+https://genius.com/Backstreet-boys-larger-than-life-lyrics"@en)
+SubClassOf(:Larger_than_Life :Songs)
+SubClassOf(:Larger_than_Life ObjectAllValuesFrom(:isWrittenBy :Brian_Littrell))
+SubClassOf(:Larger_than_Life ObjectAllValuesFrom(:isWrittenBy :Kristian_Lundin))
+SubClassOf(:Larger_than_Life ObjectAllValuesFrom(:isWrittenBy :Max_Martin))
+
+# Class: :Linda_Thompson (:Linda_Thompson)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Linda_Thompson "When Linda Thompson sings “I care only for myself / Love’s for babies and for fools,” you’d be forgiven for believing the conviction in the folk siren’s sterling voice. But if there’s one thing that defines her new album, ‘Won’t Be Long Now,’ it’s love; love for her family, her collaborators, and her art.
+http://lindathompsonmusic.com/about/"@en)
+SubClassOf(:Linda_Thompson :Song_Writers)
+
+# Class: :Lindy_Robbins (:Lindy_Robbins)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Lindy_Robbins "Lindy Robbins is a multi-platinum selling and award-winning songwriter from Los Angeles who’s hits include songs by many of the top artists in the music industry.
+https://www.lindyrobbins.com"@en)
+SubClassOf(:Lindy_Robbins :Song_Writers)
+
+# Class: :Live_Albums (:Live_Albums)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Live_Albums "Live album is an album made by recording a performance before an audience.
+https://www.merriam-webster.com/dictionary/live%20album"@en)
+SubClassOf(:Live_Albums :Albums)
+
+# Class: :MTV_Video_Music_Awards (:MTV_Video_Music_Awards)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :MTV_Video_Music_Awards "The MTV Movie & TV Awards (formerly known as the MTV Movie Awards)[1] is a film and television awards show presented annually on MTV. The nominees are decided by producers and executives at MTV. 
+https://www.mtv.ca"@en)
+SubClassOf(:MTV_Video_Music_Awards :Awards)
+
+# Class: :Max_Martin (:Max_Martin)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Max_Martin "Max Martin, the Swedish pop songwriter most famous for working with artists like the Backstreet Boys and Taylor Swift has 22 Hot 100 number 1s, all of which he attained post-1991 – the year when the chart stopped reflecting sales estimates and started counting every single sale and radio play. 
+https://www.discogs.com/artist/1303680-Kinnda-Hamid"@en)
+SubClassOf(:Max_Martin :Song_Writers)
+
+# Class: :Millennium (:Millennium)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Millennium "It was a highly anticipated follow-up to both their United States debut album, and their second internationally released CD. It was their first record to be released in both the U.S. and internationally in the same form, at the same time. In the United States, it holds the record for most shipments in one year, with 11 million in 1999. It was nominated for five Grammy Awards and spawned four Top 40  singles, including the single \"I Want It That Way.\" Three of the singles, \"I Want It That Way\", \"Larger Than Life\" and \"Show Me The Meaning Of Being Lonely\", became some of their most successful and remembered hits of all time, with \"I Want It That Way\" becoming their biggest hit to date. It has since become one of the best selling albums of all time.
+https://www.backstreetboys.com/releases/millennium"@en)
+SubClassOf(:Millennium :Studio_Albums)
+SubClassOf(:Millennium ObjectSomeValuesFrom(:hasCollectionOf :I_Want_It_That_Way))
+SubClassOf(:Millennium ObjectSomeValuesFrom(:hasCollectionOf :Larger_than_Life))
+SubClassOf(:Millennium ObjectSomeValuesFrom(:hasCollectionOf :The_One))
+
+# Class: :Never_Gone (:Never_Gone)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Never_Gone "Never Gone was the eagerly awaited comeback album by US vocal group Backstreet Boys. Originally to be released in 2004, the release date was pushed back to June 14, 2005 for unknown reasons. The album varies musically from their previous albums, with a rock  sound to the album. Unlike previous albums, the album featured only live instruments.
+https://www.backstreetboys.com/releases/never_gone"@en)
+SubClassOf(:Never_Gone :Studio_Albums)
+SubClassOf(:Never_Gone ObjectSomeValuesFrom(:hasCollectionOf :Incomplete))
+SubClassOf(:Never_Gone ObjectSomeValuesFrom(:hasCollectionOf :Just_Want_You_to_Know))
+
+# Class: :Nick_Carter (:Nick_Carter)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Nick_Carter "NICK CARTER – SINGER, SONGWRITER, ACTOR, PHILANTHROPIST. Sparking his career at the tender age of 12 years old, Nick Carter became an international pop superstar as the youngest member of iconic boy band, Backstreet Boys. Known for his boyish good looks and heartthrob status, Carter’s 22-year entertainment career has spanned far beyond the stages of sold out arenas, with an array of projects in television and film, and as a philanthropist and author.
+https://nickcarter.net/bio"@en)
+SubClassOf(:Nick_Carter :Band_Members)
+
+# Class: :Rami (:Rami)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Rami "Rami Yacoub (born 17 January 1975), also known by the mononym Rami, is a Palestinian Swedish music producer and songwriter and former member of the songwriting/production houses Cheiron Studios and Maratone. 
+http://www.maxmartinfansite.com/Rami.htm"@en)
+SubClassOf(:Rami :Song_Writers)
+
+# Class: :Record_of_the_Year (:Record_of_the_Year)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Record_of_the_Year "This goes to the person who performed the song -- and all those involved in the making of the song, like the producer, the engineer the mixer.
+https://www.cnn.com/2019/02/09/entertainment/grammys-record-song-album-trnd/index.html"@en)
+EquivalentClasses(:Record_of_the_Year ObjectIntersectionOf(:Record_of_the_Year ObjectSomeValuesFrom(:hasGivenTo :I_Want_It_That_Way) ObjectSomeValuesFrom(:isReceivedInThe <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2000>)))
+SubClassOf(:Record_of_the_Year :Grammy_Award)
+SubClassOf(:Record_of_the_Year ObjectSomeValuesFrom(:hasGivenTo :I_Want_It_That_Way))
+
+# Class: :Smooth_T (:Smooth_T)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Smooth_T "Toni Cottura (born 7 June 1971), better known by his stage name Smooth T., is a German Eurodance and hip-hop producer and rapper.
+https://www.discogs.com/artist/90113-Toni-Cottura"@en)
+SubClassOf(:Smooth_T :Song_Writers)
+
+# Class: :Song_Writers (Song writers)
+
+AnnotationAssertion(rdfs:label :Song_Writers "Song writers"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Song_Writers "A person who writes or composes words or lyrics of a song.
+https://www.merriam-webster.com/dictionary/songwriter"@en)
+
+# Class: :Songs (Songs)
+
+AnnotationAssertion(rdfs:label :Songs "Songs"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Songs "A short musical composition of words and music
+https://www.merriam-webster.com/dictionary/song"@en)
+
+# Class: :Straight_Through_My_Heart (:Straight_Through_My_Heart)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Straight_Through_My_Heart "It says something about how far the Backstreets' stock has fallen in recent years that they resorted to doing a promotional interview with Kate 'The Apprentice' Walsh for car-crash magazine show Live From Studio Five earlier this week. Watching Brian, Nick, Howie and AJ deal with the reality star's fits of giggles while approximately five hardcore fans stood waving banners made a rather depressing sight.
+https://www.digitalspy.com/music/single-reviews/a178808/backstreet-boys-straight-through-my-heart-178808/"@en)
+SubClassOf(:Straight_Through_My_Heart :Songs)
+SubClassOf(:Straight_Through_My_Heart ObjectAllValuesFrom(:isWrittenBy :Kinnda_Hamid))
+
+# Class: :Studio_Albums (:Studio_Albums)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Studio_Albums "A studio album is an album of audio recordings made up of tracks recorded in a recording studio. A studio album contains newly written and recorded or previously unreleased or remixed material, distinguishing itself from a compilation or reissue album of previously recorded material, or live recording made at a performance venue. A studio album is usually planned and scheduled in advance, and may take anywhere from a few days to more than a year to complete. Some studio albums may include one or more covers, occasionally as live tracks within the studio album. Studio albums may also feature guest performers or session musicians that would not usually perform live with the artist. A studio album may also be released or rereleased years after it has been recorded, or even posthumously, containing material recorded before the death of the artist. Most of the time studio albums have a lot of editing, sound effects, voice adjustments, etc.
+https://www.definitions.net/definition/studio+album"@en)
+SubClassOf(:Studio_Albums :Albums)
+
+# Class: :TMF_Awards (:TMF_Awards)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :TMF_Awards "The TMF Awards are an annual television awards show broadcast live on TMF (The Music Factory).
+https://www.discogs.com/label/744729-TMF-The-Music-Factory"@en)
+SubClassOf(:TMF_Awards :Awards)
+
+# Class: :The_Essential_Backstreet_Boys (:The_Essential_Backstreet_Boys)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :The_Essential_Backstreet_Boys "The Essential Backstreet Boys is the third compilation album by American pop group Backstreet Boys, released by RCA Records and Legacy Recordings as part of their Essential series. Essential Backstreet Boys, a double-disc set that has all 13 songs from The Hits, along with another 16 songs -- generally, songs that came after 2001.
+https://www.allmusic.com/album/the-essential-backstreet-boys-mw0002558447"@en)
+SubClassOf(:The_Essential_Backstreet_Boys :Compilation_Albums)
+
+# Class: :The_Hits_Chapter_One (:The_Hits_Chapter_One)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :The_Hits_Chapter_One "The Hits – Chapter One, also known as Greatest Hits – Chapter One internationally, is the first greatest hits compilation released by American band, the Backstreet Boys.
+https://www.allmusic.com/album/the-essential-backstreet-boys-mw0002558447"@en)
+SubClassOf(:The_Hits_Chapter_One :Compilation_Albums)
+SubClassOf(:The_Hits_Chapter_One ObjectSomeValuesFrom(:hasCollectionOf :Drowing))
+
+# Class: :The_One (:The_One)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :The_One "“The One” is the fourth single from the Backstreet Boys‘ third album, Millenium. The group actually wanted “Don’t Want You Back” to be their next single. They were making this decision on MTV’s Total Request Live when Nick Carter called in and requested that “The One” be their choice.
+https://genius.com/Backstreet-boys-the-one-lyrics"@en)
+SubClassOf(:The_One :Songs)
+SubClassOf(:The_One ObjectAllValuesFrom(:isWrittenBy :Brian_Littrell))
+SubClassOf(:The_One ObjectAllValuesFrom(:isWrittenBy :Max_Martin))
+
+# Class: :This_is_Us (:This_is_Us)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :This_is_Us "the Backstreet Boys have been acting like adults so it's not entirely a surprise that they've decided to shake things up on This Is Us, their third album of the comeback and second since becoming a quartet.
+https://www.allmusic.com/album/this-is-us-mw0000826617"@en)
+SubClassOf(:This_is_Us :Studio_Albums)
+SubClassOf(:This_is_Us ObjectSomeValuesFrom(:hasCollectionOf :Straight_Through_My_Heart))
+
+# Class: :Unbreakable (:Unbreakable)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> :Unbreakable "The sixth studio album does not include Kevin Richardson, who left the group.
+https://www.metacritic.com/music/unbreakable/backstreet-boys"@en)
+SubClassOf(:Unbreakable :Studio_Albums)
+SubClassOf(:Unbreakable ObjectSomeValuesFrom(:hasCollectionOf :Helpless_When_She_Smiles))
+
+# Class: <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1998> (<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1998>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1998> "1998 year is period of twelve months relating to a particular activity.
+https://dictionary.cambridge.org/dictionary/english/year"@en)
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1998> :Award_year)
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1998> ObjectSomeValuesFrom(:hasReceived :Best_International_Album))
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1998> ObjectSomeValuesFrom(:hasReceived :Best_International_Single))
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1998> ObjectSomeValuesFrom(:hasReceived :Best_International_live_act))
+
+# Class: <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1999> (<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1999>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1999> "1999 year is period of twelve months relating to a particular activity.
+https://dictionary.cambridge.org/dictionary/english/year"@en)
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1999> :Award_year)
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1999> ObjectSomeValuesFrom(:hasReceived :Album_of_the_year))
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1999> ObjectSomeValuesFrom(:hasReceived :Albums_Artist_of_the_Year))
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1999> ObjectSomeValuesFrom(:hasReceived :Artist_of_the_Year))
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1999> ObjectSomeValuesFrom(:hasReceived :Best_New_Artist))
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1999> ObjectSomeValuesFrom(:hasReceived :Billboard_Music_Awards))
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1999> ObjectSomeValuesFrom(:hasReceived <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Albums_Artist_Duo/Group_of_the_Year>))
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1999> ObjectSomeValuesFrom(:hasReceived <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Viewer’s_Choice>))
+
+# Class: <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2000> (<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2000>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2000> "2000 year is period of twelve months relating to a particular activity.
+https://dictionary.cambridge.org/dictionary/english/year"@en)
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2000> :Award_year)
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2000> ObjectSomeValuesFrom(:hasReceived :Album_of_the_Year))
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2000> ObjectSomeValuesFrom(:hasReceived :Best_Pop_Vocal_Album))
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2000> ObjectSomeValuesFrom(:hasReceived :Record_of_the_Year))
+
+# Class: <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2001> (<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2001>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2001> "2001 year is period of twelve months relating to a particular activity.
+https://dictionary.cambridge.org/dictionary/english/year"@en)
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2001> :Award_year)
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2001> ObjectSomeValuesFrom(:hasReceived :Best_Pop_Performance_by_a_Duo_or_Group_with_Vocals))
+
+# Class: <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2002> (<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2002>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2002> "2002 year is period of twelve months relating to a particular activity.
+https://dictionary.cambridge.org/dictionary/english/year"@en)
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2002> :Award_year)
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2002> ObjectSomeValuesFrom(:hasReceived :Best_Pop_Performance_by_a_Duo_or_Group_with_Vocals))
+
+# Class: <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Albums_Artist_Duo/Group_of_the_Year> (<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Albums_Artist_Duo/Group_of_the_Year>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Albums_Artist_Duo/Group_of_the_Year> "The Album artist duo/ group of the the year is part of the billboard music award.
+https://www.billboardmusicawards.com/about/"@en)
+EquivalentClasses(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Albums_Artist_Duo/Group_of_the_Year> ObjectIntersectionOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Albums_Artist_Duo/Group_of_the_Year> ObjectSomeValuesFrom(:isReceivedInThe <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1999>)))
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Albums_Artist_Duo/Group_of_the_Year> :Billboard_Music_Awards)
+
+# Class: <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Backstreet’s_Back> (<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Backstreet’s_Back>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Backstreet’s_Back> "Backstreet's Back is the second studio album by the Backstreet Boys.
+https://www.discogs.com/Backstreet-Boys-Backstreets-Back/release/1489768"@en)
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Backstreet’s_Back> :Studio_Albums)
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Backstreet’s_Back> ObjectSomeValuesFrom(:hasCollectionOf :Everybody))
+
+# Class: <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Black_&_Blue> (<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Black_&_Blue>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Black_&_Blue> "Black and Blue‘s competition-conscious heart is loud, hook-crazy, classic Swedish pop from the same Cheiron factory that built the sassiest hits of Britney, ‘N Sync and the BBs themselves.
+https://www.rollingstone.com/music/music-album-reviews/black-blue-249926/"@en)
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Black_&_Blue> :Studio_Albums)
+
+# Class: <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Don’t_Go_Breaking_My_Heart> (<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Don’t_Go_Breaking_My_Heart>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Don’t_Go_Breaking_My_Heart> "“Don’t Go Breaking My Heart” is a song recorded and performed by American boy band Backstreet Boys. This song appears on the band's album DNA.
+https://www.songmeaningsandfacts.com/dont-go-breaking-my-heart-by-backstreet-boys/"@en)
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Don’t_Go_Breaking_My_Heart> :Songs)
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Don’t_Go_Breaking_My_Heart> ObjectAllValuesFrom(:isWrittenBy :Bernie_Taupin))
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Don’t_Go_Breaking_My_Heart> ObjectAllValuesFrom(:isWrittenBy :Elton_John))
+
+# Class: <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#I’ll_Never_Break_Your_Heart> (<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#I’ll_Never_Break_Your_Heart>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#I’ll_Never_Break_Your_Heart> "“I’ll Never Break Your Heart” was supposedly recorded over two weeks, because Littrell and A. J. McLean, the two lead vocalists on the song, had colds. The original video was filmed with the band members on a ski vacation, and each partners up with one of the girls. Brian Littrell gets together with the girl who had just broken up with her boyfriend. The girl Kevin Richardson is matched with was his then-girlfriend and now-wife Kristin Willits.
+https://genius.com/Backstreet-boys-ill-never-break-your-heart-lyrics"@en)
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#I’ll_Never_Break_Your_Heart> :Songs)
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#I’ll_Never_Break_Your_Heart> ObjectAllValuesFrom(:isWrittenBy :Albert_Manno))
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#I’ll_Never_Break_Your_Heart> ObjectAllValuesFrom(:isWrittenBy :Eugene_Wilde))
+
+# Class: <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Viewer’s_Choice> (<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Viewer’s_Choice>)
+
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Viewer’s_Choice> "The People’s Choice Awards are the only major award show decided entirely by fans.
+https://www.much.com/fan-voting-2018-peoples-choice-awards/"@en)
+EquivalentClasses(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Viewer’s_Choice> ObjectIntersectionOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Viewer’s_Choice> ObjectSomeValuesFrom(:hasGivenTo :I_Want_It_That_Way)))
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Viewer’s_Choice> :MTV_Video_Music_Awards)
+SubClassOf(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Viewer’s_Choice> ObjectSomeValuesFrom(:hasGivenTo :I_Want_It_That_Way))
+
+
+DisjointClasses(:AJ_McLean :Brain_Littrell :Howie_Dorough :Kevin_Richardson :Nick_Carter)
+DisjointClasses(:Albert_Manno :Andreas_Carlsson :Bernie_Taupin :Brett_James :Brian_Littrell :Chris_Lindsey :Dan_Muckala :Denniz_Pop :Elton_John :Eugene_Wilde :Jess_Cates :Kinnda_Hamid :Kristian_Lundin :Linda_Thompson :Lindy_Robbins :Max_Martin :Rami :Smooth_T)
+DisjointClasses(:Album_of_the_Year :Best_New_Artist :Best_Pop_Performance_by_a_Duo_or_Group_with_Vocals :Best_Pop_Vocal_Album :Record_of_the_Year)
+DisjointClasses(:Album_of_the_year :Albums_Artist_of_the_Year :Artist_of_the_Year <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Albums_Artist_Duo/Group_of_the_Year>)
+DisjointClasses(:Albums :Award_year :Awards :BackstreetBoys :Band_Members :Song_Writers :Songs)
+DisjointClasses(:Backstreet_Boys :The_Essential_Backstreet_Boys :The_Hits_Chapter_One)
+DisjointClasses(:Best_International_Album :Best_International_Single :Best_International_live_act)
+DisjointClasses(:Billboard_Music_Awards :Grammy_Award :MTV_Video_Music_Awards :TMF_Awards)
+DisjointClasses(:Compilation_Albums :Live_Albums :Studio_Albums)
+DisjointClasses(:DNA :In_a_World_Like_This :Millennium :Never_Gone :This_is_Us :Unbreakable <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Backstreet’s_Back> <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Black_&_Blue>)
+DisjointClasses(:Drowing :Everybody :Get_Down :Helpless_When_She_Smiles :I_Want_It_That_Way :In_a_World_like_This :Incomplete :Just_Want_You_to_Know :Larger_than_Life :Straight_Through_My_Heart :The_One <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#Don’t_Go_Breaking_My_Heart> <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#I’ll_Never_Break_Your_Heart>)
+DisjointClasses(<http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1998> <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#1999> <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2000> <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2001> <http://www.semanticweb.org/karunavarakuti/ontologies/2019/2/untitled-ontology-10#2002>)
+)
